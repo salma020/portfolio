@@ -1,0 +1,28 @@
+body{
+    font-family: arial;
+}
+
+
+h1{
+    font-size: 40px;
+    
+}
+.name_highlight{
+    color:rgb(210, 30, 45);
+}
+p{
+    color: cyan;
+}
+.btn{
+    padding: 2px 8px;
+    color: white;
+    background-color: orange;
+}
+.lefti{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.lefti img{
+    width: 90%;
+}
