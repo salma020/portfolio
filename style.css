@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: arial;
 }
 
@@ -14,9 +15,12 @@ p{
     color: cyan;
 }
 .btn{
-    padding: 2px 8px;
+    padding: 3px 10px;
     color: white;
-    background-color: orange;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
 }
 .lefti{
     width: 40%;
@@ -25,4 +29,11 @@ p{
 }
 .lefti img{
     width: 90%;
+}
+.topper-part{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
