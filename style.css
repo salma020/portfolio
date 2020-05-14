@@ -12,7 +12,7 @@ h1{
     color:rgb(210, 30, 45);
 }
 p{
-    color: cyan;
+    color:gray;
 }
 .btn{
     padding: 3px 10px;
@@ -36,4 +36,34 @@ p{
 }
 section{
     height: 500px;
+}
+.dream-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow-part{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+
+}
+.experiance-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+    background: white;
+}
+#new-dev{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
